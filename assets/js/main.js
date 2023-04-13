@@ -8,6 +8,15 @@ if (t==o && t==y && y==o)
 {
     alert ("Beraberdir")
 }
+else if (t==y) {
+    alert ("Onluq ferqlidir")
+}
+else if (t==o) {
+    alert ("Yuzluk ferqlidir")
+}
+else if (o==y) {
+    alert ("Teklik ferqlidir")
+}
 else {
     alert ("Beraber deyil")
 }
